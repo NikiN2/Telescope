@@ -1,2 +1,5 @@
 {
-}
+  "subscribed_posts" : "Сообщений по подписке",
+  "subscribe_to_thread" : "Подписаться на комментарии",
+  "unsubscribe_from_thread" : "Отписаться от комментариев"
+}  
