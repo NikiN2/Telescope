@@ -39,7 +39,7 @@ Posts.schema = new SimpleSchema({
     editableBy: ["member", "admin"],
     autoform: {
       type: "bootstrap-url",
-      order: 10
+      order: 40
     }
   },
   /**
@@ -224,7 +224,7 @@ Posts.schema = new SimpleSchema({
     optional: true
   },
   /**
-    The post author's `_id`. 
+    The post author's `_id`.
   */
   userId: {
     type: String,
