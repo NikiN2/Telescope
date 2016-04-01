@@ -1,3 +1,6 @@
 {
-  "load_more" : "Загрузить ещё"
+  "load_more" : "Загрузить еще",
+  "search" : "Поиск",
+  "search_logs" : "Поисковые Logs",
+  "see_what_people_are_searching_for" : "Что ищут люди ."
 }
