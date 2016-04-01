@@ -27,6 +27,7 @@
   "inactive" : "неактивно",
   "author" : "Автор",
   "userId" : "Пользователь",
+  "sorry_we_couldnt_find_any_posts" : "Немогу.",
   "your_post_has_been_deleted" : "Ваш пост удалён.",
   "created" : "Создан",
   "suggest_title" : "Предложите название",
@@ -56,5 +57,7 @@
   "views" : "просмотров",
   "comment" : "комментарий",
   "point" : "бал",
-  "points" : "баллов"
+  "points" : "баллов",
+  "spam": "Spam",
+  "deleted": "Deleted"
 }
