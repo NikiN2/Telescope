@@ -16,7 +16,11 @@ Posts.helpers({getLink: function (isAbsolute) {return Posts.getLink(this, isAbso
  * @param {Object} post
  */
 Posts.getShareableLink = function (post) {
-  return Settings.get("outsideLinksPointTo", "link") === "link" ? Posts.getLink(post) : Posts.getPageUrl(post, true);
+  return Posts.getPageUrl(post, true);
+  /**
+   * как было
+  #return Settings.get("outsideLinksPointTo", "link") === "link" ? Posts.getLink(post) : Posts.getPageUrl(post, true);
+   */
 };
 Posts.helpers({getShareableLink: function () {return Posts.getShareableLink(this);}});
 
